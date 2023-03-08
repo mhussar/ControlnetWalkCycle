@@ -1,0 +1,20 @@
+SD Model: dreamshaper_331BakedVae.safetensors
+
+(walk cycle character sheet of the same exact woman with long blond hair wearing a single color white, sleeveless, leather jumpsuit:1.5), highly detailed green eyes (((no shadows anywhere in background))), reference sheet, HDR photograph by ((Ilya Kuvshinov)), by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, style of CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski
+
+Negative prompt: 
+deformed eyes, ((disfigured)), ((bad art)), ((deformed)), ((extra limbs)), (((duplicate))), ((morbid)), ((mutilated)), out of frame, extra fingers, mutated hands, poorly drawn eyes, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), cloned face, body out of frame, out of frame, bad anatomy, gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), (fused fingers), (too many fingers), (((long neck))), tiling, poorly drawn, mutated, cross-eye, canvas frame, frame, cartoon, 3d, weird colors, blurry, writing on shirt, pony tail, bow in hair, hair tied up, writing on shirt, bag, hand bag, pocket-book, luggage, carrying bag, (((shadows))), (((shadows on the wall))), (((shadows in background))),(((sleeves))),(((long sleeves))) ((((multi colored jumpsuit))))
+
+
+Steps: 20, Sampler: Euler a, CFG scale: 5, Seed: 2301501022, Size: 2048x960, 
+
+---ControlNet-0 ---
+Enabled: True
+Preprocessor: canny, Model: control_sd15_canny [fef5e48e]
+Weight:  1,  Guidance Start: 0, ControlNet-0 Guidance End: 1 
+Canny low threshold: 52
+Canny high threshold: 64
+Resize Mode: Just Resize
+Cavas Width: 1024
+Canvas Height: 512
+
